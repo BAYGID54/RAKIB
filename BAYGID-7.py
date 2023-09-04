@@ -133,7 +133,7 @@ logo=("""
  \033[1;31m[\033[1;32m[I]\033[1;31m]\033[1;32m FACEBOOK  : RAKIBULLAH
  \033[1;31m[\033[1;32m[D]\033[1;31m]\033[1;32m GITHUB    : RAKIBULLAH
  \033[1;31m[\033[1;32m[O]\033[1;31m]\033[1;32m TOOLS     : RENDOM
- \033[1;31m[\033[1;32m[Y]\033[1;31m]\033[1;32m VERSION   : \033[1;31m[R-2V]
+ \033[1;31m[\033[1;32m[Y]\033[1;31m]\033[1;32m VERSION   : \033[1;31m[R-1V]
 \x1b[38;5;46m_____________________________________________________
 """)
 A = '\x1b[1;97m' 
@@ -211,7 +211,7 @@ def admin():
 		os.system('xdg-open https://www.facebook.com/profile.php?id=100040424541718&mibextid=ZbWKwL');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-ope https://github.com/BAYGID54/RAKIB/blob/main/BAL.txt');time.sleep(1)
+		os.system('xdg-ope https://github.com/RAKIB54/RAKIB/blob/main/ami%20nai.txt');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -314,7 +314,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/BAYGID54/RAKIB/blob/main/BAL.txt").text
+    DARK=requests.get("https://github.com/RAKIB54/RAKIB/blob/main/RAKIB.txt").text
     if id in DARK:
         Main()
     else:
